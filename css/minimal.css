@@ -55,24 +55,6 @@ a.has-text-white:hover,a.has-text-white:focus{color:#e6e6e6!important}
 .has-background-white{background-color:#fff!important}
 .has-text-black{color:#0a0a0a!important}
 
-a.has-text-black:hover,a.has-text-black:focus{color:#000!important}
-.has-background-black{background-color:#0a0a0a!important}
-.has-text-light{color:#f5f5f5!important}
-a.has-text-light:hover,a.has-text-light:focus{color:#dbdbdb!important}
-.has-background-light{background-color:#f5f5f5!important}
-.has-text-dark{color:#363636!important}
-a.has-text-dark:hover,a.has-text-dark:focus{color:#1c1c1c!important}
-.has-background-dark{background-color:#363636!important}
-.has-text-primary{color:#00b8d4!important}
-a.has-text-primary:hover,a.has-text-primary:focus{color:#008ca1!important}
-.has-background-primary{background-color:#00b8d4!important}
-.has-text-primary-light{color:#ebfcff!important}
-a.has-text-primary-light:hover,a.has-text-primary-light:focus{color:#b8f6ff!important}
-.has-background-primary-light{background-color:#ebfcff!important}
-.has-text-primary-dark{color:#0096ad!important}
-a.has-text-primary-dark:hover,a.has-text-primary-dark:focus{color:#00c3e0!important}
-.has-background-primary-dark{background-color:#0096ad!important}
-
 .has-text-centered{text-align:center!important}
 .has-text-justified{text-align:justify!important}
 .has-text-left{text-align:left!important}
@@ -108,25 +90,7 @@ a.has-text-primary-dark:hover,a.has-text-primary-dark:focus{color:#00c3e0!import
 .subtitle.is-6{font-size:1rem}
 .subtitle.is-7{font-size:.75rem}
 
-/* necessary */
 .hero{align-items:stretch;display:flex;flex-direction:column;justify-content:space-between}
-.hero .navbar{background:0 0}
-.hero .tabs ul{border-bottom:none}
-.hero.is-white{background-color:#fff;color:#0a0a0a}
-.hero.is-white a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),.hero.is-white strong{color:inherit}
-.hero.is-white .title{color:#0a0a0a}
-.hero.is-white .subtitle{color:rgba(10,10,10,.9)}
-.hero.is-white .subtitle a:not(.button),.hero.is-white .subtitle strong{color:#0a0a0a}
-@media screen and (max-width:1023px){.hero.is-white .navbar-menu{background-color:#fff}}
-.hero.is-white .navbar-item,.hero.is-white .navbar-link{color:rgba(10,10,10,.7)}
-.hero.is-white a.navbar-item:hover,.hero.is-white a.navbar-item.is-active,.hero.is-white .navbar-link:hover,.hero.is-white .navbar-link.is-active{background-color:#f2f2f2;color:#0a0a0a}
-.hero.is-white .tabs a{color:#0a0a0a;opacity:.9}
-.hero.is-white .tabs a:hover{opacity:1}
-.hero.is-white .tabs li.is-active a{opacity:1}
-.hero.is-white .tabs.is-boxed a,.hero.is-white .tabs.is-toggle a{color:#0a0a0a}
-.hero.is-white .tabs.is-boxed a:hover,.hero.is-white .tabs.is-toggle a:hover{background-color:rgba(10,10,10,.1)}
-.hero.is-white .tabs.is-boxed li.is-active a,.hero.is-white .tabs.is-boxed li.is-active a:hover,.hero.is-white .tabs.is-toggle li.is-active a,.hero.is-white .tabs.is-toggle li.is-active a:hover{background-color:#0a0a0a;border-color:#0a0a0a;color:#fff}
-.hero.is-white.is-bold{background-image:linear-gradient(141deg,#e8e3e4 0%,white 71%,white 100%)}
 
 /* necessary */
 @media screen and (min-width:769px),print{.hero.is-large .hero-body{padding:18rem 1.5rem}}
