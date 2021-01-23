@@ -88,17 +88,6 @@ body{
 
 @media screen and (min-width:769px),print{.hero.is-large .hero-body{padding:18rem 1.5rem}}
 
-
-.hero.is-halfheight .hero-body,.hero.is-fullheight .hero-body,.hero.is-fullheight-with-navbar .hero-body{
-    align-items:center;
-    display:flex
-}
-
-.hero.is-halfheight .hero-body>.container,.hero.is-fullheight .hero-body>.container,.hero.is-fullheight-with-navbar .hero-body>.container{
-    flex-grow:1;
-    flex-shrink:1
-}
-
 .hero.is-fullheight{min-height:100vh}
 
 .hero-head,.hero-foot{
@@ -108,7 +97,9 @@ body{
 .hero-body{
     flex-grow:1;
     flex-shrink:0;
-    padding:3rem 1.5rem
+    padding:3rem 1.5rem;
+    align-items:center;
+    display:flex
 }
 
 @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}
