@@ -88,10 +88,12 @@ body{
 
 @media screen and (min-width:769px),print{.hero.is-large .hero-body{padding:18rem 1.5rem}}
 
+
 .hero.is-halfheight .hero-body,.hero.is-fullheight .hero-body,.hero.is-fullheight-with-navbar .hero-body{
     align-items:center;
     display:flex
 }
+
 .hero.is-halfheight .hero-body>.container,.hero.is-fullheight .hero-body>.container,.hero.is-fullheight-with-navbar .hero-body>.container{
     flex-grow:1;
     flex-shrink:1
@@ -99,23 +101,58 @@ body{
 
 .hero.is-fullheight{min-height:100vh}
 
-@media screen and (max-width:768px){.hero-video{display:none}}
-.hero-head,.hero-foot{flex-grow:0;flex-shrink:0}
-.hero-body{flex-grow:1;flex-shrink:0;padding:3rem 1.5rem}
+.hero-head,.hero-foot{
+    flex-grow:0;
+    flex-shrink:0
+}
+.hero-body{
+    flex-grow:1;
+    flex-shrink:0;
+    padding:3rem 1.5rem
+}
 
 @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-.fade-in{opacity:0;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:1s;animation-duration:1s}.fade-in.one{-webkit-animation-delay:.7s;animation-delay:.7s}
-.fade-in.two{-webkit-animation-delay:1.4s;animation-delay:1.4s}
-.fade-in.three{-webkit-animation-delay:1.8s;animation-delay:1.8s}
+.fade-in{
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:1s;
+    animation-duration:1s
+}
+.fade-in.one{
+    -webkit-animation-delay:.7s;
+    animation-delay:.7s
+}
+.fade-in.two{
+    -webkit-animation-delay:1.4s;
+    animation-delay:1.4s
+}
+.fade-in.three{
+    -webkit-animation-delay:1.8s;
+    animation-delay:1.8s
+}
 
 a{color:#00b8d4}
 a:hover{color:#000;font-style:none}
 a:active{color:#00b8d4}
 
 h1,h2,.title,.subtitle{color:#222}
-.bold-title{font-size:6rem;line-height:1.2;margin-bottom:.25em}
+.bold-title{
+    font-size:6rem;
+    line-height:1.2;
+    margin-bottom:.25em
+}
 
-.social-icons{padding:0 10px}
-.social-icons a{margin:0 5px; text-decoration: none;}
-.fab{font-size:1.3rem}
+.social-icons{
+    padding:0 10px
+}
+.social-icons a{
+    margin:0 5px; 
+    text-decoration: none
+}
+.fab{
+    font-size:1.3rem
+}
