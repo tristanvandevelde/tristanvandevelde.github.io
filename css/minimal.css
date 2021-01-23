@@ -46,13 +46,6 @@ strong{color:#363636;font-weight:700}
 fieldset{border:none}
 pre{-webkit-overflow-scrolling:touch;background-color:#fff;color:#4a4a4a;font-size:.875em;overflow-x:auto;padding:1.25rem 1.5rem;white-space:pre;word-wrap:normal}
 pre code{background-color:transparent;color:currentColor;font-size:1em;padding:0}
-table td,table th{vertical-align:top}
-table td:not([align]),table th:not([align]){text-align:inherit}
-table th{color:#363636}
-.has-text-white{color:#fff!important}
-a.has-text-white:hover,a.has-text-white:focus{color:#e6e6e6!important}
-.has-background-white{background-color:#fff!important}
-.has-text-black{color:#0a0a0a!important}
 
 
 .has-text-centered{text-align:center!important}
