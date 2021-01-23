@@ -103,10 +103,6 @@ body{
 .hero-head,.hero-foot{flex-grow:0;flex-shrink:0}
 .hero-body{flex-grow:1;flex-shrink:0;padding:3rem 1.5rem}
 
-
-
-
-
 @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 .fade-in{opacity:0;-webkit-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:1s;animation-duration:1s}.fade-in.one{-webkit-animation-delay:.7s;animation-delay:.7s}
@@ -123,8 +119,3 @@ h1,h2,.title,.subtitle{color:#222}
 .social-icons{padding:0 10px}
 .social-icons a{margin:0 5px}
 .fab{font-size:1.3rem}
-
-.center{
-    margin: auto;
-    display: block;
-  }
