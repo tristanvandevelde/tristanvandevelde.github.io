@@ -4,7 +4,7 @@
 .is-unselectable,.modal-close{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 
 
-.title:not(:last-child),.subtitle:not(:last-child){margin-bottom:1.5rem}
+.subtitle:not(:last-child){margin-bottom:1.5rem}
 
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
@@ -13,7 +13,7 @@ html{box-sizing:border-box}
 *,*::before,*::after{box-sizing:inherit}
 
 html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%}
-article,aside,figure,footer,header,hgroup,section{display:block}
+
 body,button,input,select,textarea{font-family:Nunito Sans,sans-serif}
 code,pre{-moz-osx-font-smoothing:auto;-webkit-font-smoothing:auto;font-family:monospace}
 body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5}
@@ -23,22 +23,9 @@ a strong{color:currentColor}
 a:hover{color:#000}
 
 .has-text-centered{text-align:center!important}
-.has-text-justified{text-align:justify!important}
-.has-text-left{text-align:left!important}
-.has-text-right{text-align:right!important}
 
 
-.is-hidden{display:none!important}
-.is-sr-only{border:none!important;clip:rect(0,0,0,0)!important;height:.01em!important;overflow:hidden!important;padding:0!important;position:absolute!important;white-space:nowrap!important;width:.01em!important}
-
-.container{flex-grow:1;margin:0 auto;position:relative;width:auto}
-.container.is-fluid{max-width:none;padding-left:32px;padding-right:32px;width:100%}
-
-.title,.subtitle{word-break:break-word}
-.title em,.title span,.subtitle em,.subtitle span{font-weight:inherit}
-.title sub,.subtitle sub{font-size:.75em}
-.title sup,.subtitle sup{font-size:.75em}
-.title .tag,.subtitle .tag{vertical-align:middle}
+.subtitle{word-break:break-word}
 
 
 .subtitle.is-3{font-size:2rem}
