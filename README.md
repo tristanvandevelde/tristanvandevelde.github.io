@@ -1,2 +1,0 @@
-# tristanvandevelde.io
-
