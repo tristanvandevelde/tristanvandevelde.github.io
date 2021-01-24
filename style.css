@@ -1,0 +1,37 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+#icons {
+    text-align: center;
+    font-size: 125%;
+}
+
+a.social {
+    text-decoration: none;
+}
+
+
+
+a.social:link, a.social:visited, a.social:active {
+    color: #0074D9;
+}
+
+a.social:hover {
+    color: black;
+}
