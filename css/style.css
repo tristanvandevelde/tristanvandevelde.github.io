@@ -13,7 +13,7 @@ body {
 
 h1 { 
     text-align: center;
-    font-size: 400%;
+    font-size: 500%;
     font-weight: normal;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
